@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kaupa</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link rel="stylesheet" href="styleskaupa.css">
+    <!-- link styleguide? -->
+    <!-- <link rel="grid" href="grid.css"> -->
+  </head>
+  <body>
+    <header>
+      <nav class="fixed--nav">
+        <span>Fooþjónustan</span>
+        <ul>
+          <li>
+            <a href="um.html">
+              <button class="button button--nav">Um</button>
+            </a>
+          </li>
+          <li>
+            <a href="form.html">
+              <button class="button button--nav">Kaupa</button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <header>
+      <div class="header">
+        <div class="img img--header"><img src="bg-subpage.jpg" alt=""></div>
+        <h1>Kaupa</h1>
+      </div>
+    </header>
+    <main>
+      <form class="personuupplysingar">
+        <fieldset>
+          <legend>Persónuupplýsingar</legend>
+            <div class="nafnogkennit">
+              <label for="name">Nafn: </label><br>
+                <input type="text" name="nafn" id="name" required>
+              <br><label for="kennitala">Kennitala: </label><br>
+                <input type="text" name="kennitala" id="kennitala" maxlength="11" placeholder="123456-7890" required> <!-- 10 tölustafir og eitt bandstrik -->
+            </div>
+            <div class="valkyn">
+              <label for="valkyn">Kyn: </label><br>
+              <label>
+                <input id="valkona" type="radio" name="val" value="kona"><span>Kona</span>
+              </label>
+              <br><label>
+                <input id="valkarl" type="radio" name="val" value="karl"><span>Karl</span>
+              </label>
+              <br><label>
+                <input id="valannad" type="radio" name="val" value="annad"><span>Annað</span>
+              </label>
+            </div>
+            <div class="simiogheimilisf">
+              <label for="simi">Sími: </label><br>
+                <input type="tel" name="simi" id="simi" maxlength="11" size="11" placeholder="+354-812-3456" required>
+              <br><label for="heimilisfang">Heimilisfang: </label><br>
+                <input type="text" name="heimilisfang" id="heimilisfang" required>
+            </div>
+            <div class="postlisti">
+              <label>
+                <input type="checkbox" name="postlisti" id="postlisti" value="postlisti" checked>
+                <span>Skrá mig á póstlista</span>
+              </label>
+            </div>
+        </fieldset>
+      </form>
+      <form class="greidsluupplysingar">
+        <fieldset>
+          <legend>Greiðsluupplýsingar</legend>
+            <div class=valkort>
+              <label for="valkort">Greiða með: </label>
+                <select id="valkort">
+                  <option value="kreditkort">Kreditkorti</option>
+                  <option value="millifaersla">Millifærslu</option>
+                  <option value="reidufe">Reiðufé</option>
+                </select>
+            </div>
+            <div class="kortanafn">
+              <label for="kortanafn">Nafn á korti: </label><br>
+                <input type="text" name="kortanafn" id="kortanafn">
+              <br><label for="kortanumer">Kortanúmer: </label><br>
+                <input type="text" name="kortanumer" id="kortanumer" maxlength="19" placeholder="5999-9999-9999-9999" required>
+            </div>
+            <div class="gilditimi">
+              <label for="gildistimi">Gildistími: </label><br>
+                <span>Mán  </span>
+                <select id="gildistimimanudur"> <!-- það er til input type="month" en það lítur ekki út eins og fyrirmynd -->
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+                <span>Ár  </span>
+                <select id="gildistimiar">
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</opion>
+                </select>
+        </fieldset>
+      </form>
+      <div class="panta">
+        <button class="button button--panta">Panta</button>
+      </div>
+    </main>
+    <footer>
+      <div class="nafnogsimi">
+        <p>Fooþjónustan</p>
+        <p>123-4567</p>
+      </div>
+      <div class="staðsetningogopnun">
+        <p>Opið 12-13 alla daga</p>
+        <p>Bargata 1</p>
+        <p>900 Foobar</p>
+      </div>
+      <div class="copyright">
+        <p>© Fooþjónustan 2017</p>
+      </div>
+    </footer>
+  </body>
+</html>
