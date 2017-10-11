@@ -3,98 +3,88 @@
   <head>
     <meta charset="utf-8">
     <title>Forsíða</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cRoboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <!-- link styleguide? -->
     <!-- <link rel="grid" href="grid.css"> -->
   </head>
   <body>
-    <header>
-      <nav class="fixed--nav">
+    <div class="header--fixed">
+      <nav>
+        <a href="index.html" class="button button--main">Fooþjónustan</a>
         <ul>
           <li>
-            <a href="index.html">
-              <button class="button button--forsida">Fooþjónustan</button>
-            </a>
-          </li>      
-          <li>
-            <a href="um.html">
-              <button class="button button__nav">Um</button>
-            </a>
+            <a href="um.html" class="button button--nav1">Um</a>
           </li>
           <li>
-            <a href="kaupa.html">
-              <button class="button button__nav">Kaupa</button>
-            </a>
+            <a href="kaupa.html" class="button button--nav2">Kaupa</a>
           </li>
         </ul>
       </nav>
-    </header>
+    </div>
     <header>
-      <div class="header header--index">
-        <div class="img img--headerindex"><img src="bg.jpg" alt=""></div>
+      <div class="header">
+        <div class="header__image"><img src="bg.jpg" alt=""></div>
         <h3>Í fyrsta skipti á Íslandi</h3>
         <h1>Fooþjónustan</h1>
       </div>
-      <div class="button button--header">
-        <button class="button button--header">Kaupa</button>
-      </div>
+      <button class="button button--header">Kaupa</button>
     </header>
     <main>
-      <div class="upplysingar">
-        <h4>Ódýr og góð þjónusta</h4>
-          <p>Gerir nákvæmlega það sem þú býst við. Ekki láta þessa frábæru nýjung framhjá þér fara.</p>
-        <h4>Þægilegt í amstri dagsins</h4>
-          <p>Eftir nokkra daga munt þú aldrei geta verið án Fooþjónustunnar.</p>
-        <h4>Nauðsynlegt á hvert heimili</h4>
-          <p>Hvort sem er fyrir einstaklinga eða stórfjölskyldur.</p>
-        <!--Kaupa! Núna! Strax!-->
-        <div class="img img--upplysingar"><img src="image.jpg" alt=""></div>
+      <div class="text">
+        <div class="text__content">
+          <h4>Ódýr og góð þjónusta</h4>
+            <p>Gerir nákvæmlega það sem þú býst við. Ekki láta þessa frábæru nýjung framhjá þér fara.</p>
+          <h4>Þægilegt í amstri dagsins</h4>
+            <p>Eftir nokkra daga munt þú aldrei geta verið án Fooþjónustunnar.</p>
+          <h4>Nauðsynlegt á hvert heimili</h4>
+            <p>Hvort sem er fyrir einstaklinga eða stórfjölskyldur.</p>
+          <!--Kaupa! Núna! Strax!-->
+        </div>
+        <div class="text__img"><img src="image.jpg" alt=""></div>
       </div>
       <div class="medmaeli">
-        <div class="AnnaJons">
-          <img class="img img--annajons" src="profile1.jpg" alt="">
-          <blockquote class="medmaeli__utlit">
-            <p class="quote">„Ég get engan vegið hugsað mér lífið án þessarar þjónustu!“</p>
-            <p class="nafn">Anna Jóns</p>
-            <p class="askrift">Áskrifandi í þrjá mánuði</p>
+        <div class="medmaeli__content">
+          <img class="medmaeli__img" src="profile1.jpg" alt="">
+          <blockquote class="medmaeli__text">
+            <p class="medmaeli__text__q">„Ég get engan vegið hugsað mér lífið án þessarar þjónustu!“</p>
+            <p class="medmaeli__text__n">Anna Jóns</p>
+            <p class="medmaeli__text__a">Áskrifandi í þrjá mánuði</p>
           </blockquote>
         </div>
-        <div class="SiggiPals">
-          <img class="img img--siggipals" src="profile2.jpg" alt="">
-          <blockquote class="medmaeli__utlit">
-            <p class="quote">„Vá, þetta breytir öllu!“</p>
-            <p class="nafn">Siggi Páls</p>
-            <p class="askrift">Áskrifandi í tvo daga</p>
+        <div class="medmaeli__content">
+          <img class="medmaeli__img" src="profile2.jpg" alt="">
+          <blockquote class="medmaeli__text">
+            <p class="medmaeli__text__q">„Vá, þetta breytir öllu!“</p>
+            <p class="medmaeli__text__n">Siggi Páls</p>
+            <p class="medmaeli__text__a">Áskrifandi í tvo daga</p>
           </blockquote>
         </div>
-        <div class="JonG">
-          <img class="img img--jong" src="profile3.jpg" alt="">
-          <blockquote class="medmaeli__utlit">
-            <p class="quote">„A+++, mun aldrei hætta í áskrift“<p>
-            <p class="nafn">Jón Guðrúnarson</p>
-            <p class="askrift">Áskrifandi í ár</p>
+        <div class="medmaeli__content">
+          <img class="medmaeli__img" src="profile3.jpg" alt="">
+          <blockquote class="medmaeli__text">
+            <p class="medmaeli__text__q">„A+++, mun aldrei hætta í áskrift“<p>
+            <p class="medmaeli__text__n">Jón Guðrúnarson</p>
+            <p class="medmaeli__text__a">Áskrifandi í ár</p>
           </blockquote>
         </div>
       </div>
-      <div class="kaupanuna">
-        <span>Eftir hverju ert þú að bíða?</span>
-        <div class="button button--nedst">
-          <button class="button button--nedst">Kaupa</button>
-        </div>
+      <div class="lokaord">
+        <span class="lokaord__text">Eftir hverju ert þú að bíða?</span>
+        <button class="lokaord__button">Kaupa</button>
       </div>
     </main>
-    <footer class="footerallt">
-      <div class="nafnogsimi">
+    <footer class="footer">
+      <div class="footer__text--1">
         <p>Fooþjónustan</p>
         <p>123-4567</p>
       </div>
-      <div class="staðsetningogopnun">
+      <div class="footer__text--2">
         <p>Opið 12-13 alla daga</p>
         <p>Bargata 1</p>
         <p>900 Foobar</p>
       </div>
-      <div class="copyright">
+      <div class="footer__text--3">
         <p>© Fooþjónustan 2017</p>
       </div>
     </footer>

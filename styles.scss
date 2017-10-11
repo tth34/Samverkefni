@@ -22,5 +22,6 @@ html {
 
   main {
     max-width: $max-width;
-    margin: 0 auto;
     overflow-x: hidden; }
+
+@import "header.scss";
