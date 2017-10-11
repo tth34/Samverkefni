@@ -6,8 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "browser-sync": "browser-sync start --server --files index.html styles.css",
-    "browser-sync": "browser-sync start --server --files um.html styles.css",
-    "browser-sync": "browser-sync start --server --files kaupa.html styles.css",
     "sass": "node-sass styles.scss styles.css -w",
     "dev": "npm-run-all --parallel sass browser-sync",
     "lint": "stylelint *.scss scss/*.scss --syntax scss"
