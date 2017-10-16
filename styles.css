@@ -7,26 +7,31 @@ html {
   box-sizing: border-box;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-  margin-right: 20px;
-  margin-left: 20px;
   line-height: 1.5; }
 
 img {
   max-width: 100%; }
 
 main {
+  margin-right: 20px;
+  margin-left: 20px;
   max-width: 1200px;
   overflow-x: hidden; }
 
-.img--headerindex {
+header {
   width: 100%;
-  height: 25em;
-  margin-bottom: 2em;
-  background: url(bg.jpg);
+  height: 35em;
+  margin-bottom: 2rem;
+  background: url(bg-subpage.jpg);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: 50% 50%;
   background-size: cover; }
 
-nav {
-  border: 1px solid black; }
+.header {
+  padding-top: 15rem;
+  padding-left: 20px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
+  color: white;
+  font-size: 1.5em; }

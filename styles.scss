@@ -13,15 +13,15 @@ html {
   box-sizing: border-box;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-  margin-right: $gutter;
-  margin-left: $gutter;
   line-height: 1.5; }
 
   img {
     max-width: 100%; }
 
   main {
+    margin-right: $gutter;
+    margin-left: $gutter;
     max-width: $max-width;
     overflow-x: hidden; }
 
-@import "header.scss";
+@import "Um.scss";
