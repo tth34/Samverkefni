@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-$max-width: 1200px;
 $gutter: 20px;
 
 *, *:before, *:after {
@@ -21,7 +20,7 @@ html {
   main {
     margin-right: $gutter;
     margin-left: $gutter;
-    max-width: $max-width;
     overflow-x: hidden; }
 
 @import "Um.scss";
+@import "kaupa.scss";

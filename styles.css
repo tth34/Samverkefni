@@ -15,7 +15,6 @@ img {
 main {
   margin-right: 20px;
   margin-left: 20px;
-  max-width: 1200px;
   overflow-x: hidden; }
 
 header {
@@ -57,3 +56,28 @@ blockquote > p {
 
 main > .text__content {
   margin-bottom: 5em; }
+
+.baediformin {
+  display: flex;
+  justify-content: space-around; }
+
+.button--panta {
+  background-color: #666;
+  border: none;
+  padding: 0.5rem 4rem;
+  border-radius: 0.2rem;
+  color: #FFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+fieldset {
+  border: none; }
+
+legend {
+  font-size: 1.5rem;
+  padding-top: 2rem; }
+
+.label {
+  display: inline-block;
+  margin-top: 1rem; }
