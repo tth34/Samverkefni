@@ -60,18 +60,11 @@ main {
   border-radius: 0.3rem;
   padding: 0.3rem; }
 
-.header--foo1 {
-  display: flex;
-  justify-content: center; }
-
 .header__content {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   align-items: center;
-  padding-top: 14rem;
-  /*Sjá hvort hægt sé að align-content */
-  font-family: 'Roboto Slab', sans-serif;
-  text-align: center; }
+  font-family: 'Roboto Slab', sans-serif; }
 
 .header__content h1 {
   font-size: 6rem;
@@ -89,6 +82,7 @@ main {
 
 .header__content h3 {
   font-size: 3rem;
+  padding-top: 13rem;
   animation-name: fadein;
   animation-duration: 3s;
   animation-delay: 1s;
@@ -154,8 +148,10 @@ div {
   flex-direction: column; }
 
 .saman {
+  padding-top: 5rem;
   display: flex;
-  flex-flow: row; }
+  flex-flow: row;
+  align-items: flex-start; }
 
 svg {
   /* stylelint-disable-line */
@@ -164,7 +160,6 @@ svg {
 
 h4 {
   /* stylelint-disable-line */
-  padding-top: 5.2rem;
   padding-left: 0.3rem;
   font-size: 1.4rem;
   font-family: 'Roboto Slab', sans-serif;
@@ -173,7 +168,6 @@ h4 {
 div + p {
   /* stylelint-disable-line */
   font-size: 1.2rem;
-  margin-top: -4rem;
   padding-left: 2.3rem; }
 
 .text__img {

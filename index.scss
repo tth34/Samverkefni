@@ -13,8 +13,10 @@ div {
   flex-direction: column; }
 
 .saman {
+  padding-top: 5rem;
   display: flex;
-  flex-flow: row; }
+  flex-flow: row;
+  align-items: flex-start; }
 
 svg {
   /* stylelint-disable-line */
@@ -23,7 +25,6 @@ svg {
 
 h4 {
   /* stylelint-disable-line */
-  padding-top: 5.2rem;
   padding-left: 0.3rem;
   font-size: 1.4rem;
   font-family: 'Roboto Slab', sans-serif;
@@ -32,7 +33,6 @@ h4 {
 div + p {
   /* stylelint-disable-line */
   font-size: 1.2rem;
-  margin-top: -4rem;
   padding-left: 2.3rem; }
 
 .text__img {
