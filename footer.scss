@@ -3,7 +3,8 @@
   flex-direction: column;
   height: 11rem;
   background-color: #333;
-  color: #FFF; }
+  color: #FFF;
+  text-align: center; }
 
 .footer__text {
   display: flex;
@@ -25,5 +26,5 @@
   align-items: center;
   font-size: 0.7rem;
   padding-bottom: 1rem;
-  border-top: 1px solid #999;
+  border-top: 2px solid #999;
   color: #999; }

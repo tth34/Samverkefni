@@ -14,9 +14,11 @@ html {
   img {
     max-width: 100%; }
 
+$gutter: 20px;
+
   main {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: $gutter;
+    margin-left: $gutter;
     overflow-x: hidden; }
 
 @import "header.scss";
