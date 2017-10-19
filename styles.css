@@ -26,7 +26,7 @@ main {
   background-repeat: no-repeat;
   margin-bottom: 2em;
   width: 100%;
-  height: 70rem; }
+  height: 60rem; }
 
 .header--fixed {
   display: flex;
@@ -128,7 +128,9 @@ main {
 
 @media (max-width: 400px) and (max-device-width: 400px) {
   .header--foo {
-    height: 35rem; }
+    height: 35rem;
+    background-position: 10% 10%;
+    background-size: auto; }
   .header__content h1 {
     font-size: 3rem;
     font-weight: bold; }
@@ -329,15 +331,13 @@ div + p {
 .footer {
   display: flex;
   flex-direction: column;
-  /* vera viss um að þetta skalist */
-  height: 10rem;
-  background: #333;
+  height: 11rem;
+  background-color: #333;
   color: #FFF; }
 
 .footer__text {
   display: flex;
-  padding-top: 1rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 4rem; }
 
 .footer__text--1 {
   display: flex;
@@ -352,7 +352,75 @@ div + p {
 .footer__text--3 {
   display: flex;
   justify-content: center;
-  font-size: 0.8rem;
-  padding-top: 0.7rem;
+  align-items: center;
+  font-size: 0.7rem;
+  padding-bottom: 1rem;
   border-top: 1px solid #999;
   color: #999; }
+
+header {
+  width: 100%;
+  height: 35em;
+  margin-bottom: 2rem;
+  background: url(bg-subpage.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 50%;
+  background-size: cover; }
+
+.header {
+  padding-top: 15rem;
+  padding-left: 20px;
+  font-family: 'Roboto Slab', sans-serif;
+  color: white;
+  font-size: 2rem; }
+
+.text__content {
+  padding-top: 4rem; }
+
+h3 {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold; }
+
+p {
+  padding-top: 1rem; }
+
+blockquote {
+  float: right;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: 8rem; }
+
+blockquote > p {
+  font-size: 1.5rem;
+  margin-bottom: 1em;
+  font-style: italic;
+  font-weight: bold; }
+
+main {
+  margin-bottom: 5em; }
+
+@media (max-width: 600px) and (max-device-width: 600px) {
+  header {
+    background-position: 50%; }
+  .header {
+    word-break: break-all; }
+  blockquote {
+    float: right;
+    width: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem; }
+  blockquote > p {
+    font-size: 1rem; }
+  .blockquotefooter {
+    font-size: 0.8rem; } }
+
+@media (max-width: 400px) and (max-device-width: 400px) {
+  header {
+    background-position: 0%; }
+  .header {
+    word-break: break-all; }
+  blockquote {
+    width: 17rem; } }
