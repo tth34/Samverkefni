@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  height: 11rem;
+  background-color: #333;
+  color: #FFF;
+  text-align: center; }
+
+.footer__text {
+  display: flex;
+  padding-bottom: 4rem; }
+
+.footer__text--1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.footer__text--2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.footer__text--3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  padding-bottom: 1rem;
+  border-top: 2px solid #999;
+  color: #999; }

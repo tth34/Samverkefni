@@ -1,12 +1,9 @@
 @charset "UTF-8";
 
-$gutter: 20px;
-
 *, *:before, *:after {
   box-sizing: inherit;
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 html {
   box-sizing: border-box;
@@ -17,10 +14,16 @@ html {
   img {
     max-width: 100%; }
 
+$gutter: 20px;
+
   main {
     margin-right: $gutter;
     margin-left: $gutter;
     overflow-x: hidden; }
 
-@import "Um.scss";
+@import "header.scss";
+@import "index.scss";
+@import "footer.scss";
+@import "um.scss";
 @import "kaupa.scss";
+
