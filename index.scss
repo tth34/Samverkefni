@@ -33,10 +33,10 @@ div + p {
   /* stylelint-disable-line */
   font-size: 1.2rem;
   margin-top: -4rem;
-  padding-left: 2.3rem;
-  padding-bottom: 4rem; }
+  padding-left: 2.3rem; }
 
 .text__img {
+  padding-top: 5rem;
   padding-left: 1rem;
   max-width: 100%;
   height: auto;
@@ -81,6 +81,12 @@ div + p {
 .medmaeli__img {
   border-radius: 20rem;
   width: 80%; }
+
+.medmaeli__text--S {
+  padding-top: 2.5rem; }
+
+.medmaeli__text--J {
+  padding-top: 2.5rem; }
 
 .medmaeli__text__q {
   text-align: center;
@@ -174,6 +180,8 @@ div + p {
     align-items: center; }
   .medmaeli__text__q {
     font-size: 1.4rem; }
+  .medmaeli__text__a {
+    padding-bottom: 1.5rem; }
   .medmaeli__AS {
     flex-flow: column; }
   .medmaeli__J {
