@@ -1,12 +1,13 @@
 <!doctype html>
-<html>
+<html class="grid" lang="is">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Kaupa</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cRoboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <!-- link styleguide? -->
-    <!-- <link rel="grid" href="grid.css"> -->
+    <link rel="stylesheet" href="grid.css">
   </head>
   <body>
     <div class="header--fixed">
@@ -29,7 +30,7 @@
     </header>
     <main>
       <div class="baediformin">
-        <form class="form">
+        <form class="form1">
           <fieldset>
             <legend>Persónuupplýsingar</legend>
               <div class="form__content">
@@ -40,7 +41,7 @@
                 </div>
                 <div class="form__content">
                   <span>Kyn: </span><br>
-                  <label class="label">
+                  <label class="label--val">
                     <input id="valkona" type="radio" name="val" value="kona"><span>Kona</span>
                   </label>
                   <br><label class="label">
@@ -64,11 +65,11 @@
                 </div>
               </fieldset>
             </form>
-            <form class="form">
+            <form class="form2">
               <fieldset>
                 <legend>Greiðsluupplýsingar</legend>
                 <div class="form__content">
-                  <label class="label" for="valkort">Greiða með:<br> </label>
+                  <label class="label--greida" for="valkort">Greiða með:<br></label>
                   <select id="valkort">
                     <option value="kreditkort">Kreditkorti</option>
                     <option value="millifaersla">Millifærslu</option>
@@ -99,7 +100,7 @@
                     <option value="12">12</option>
                   </select>
                   <span>Ár</span>
-                  <select class="label label--select" id="gildistimiar">
+                  <select class="label--select" id="gildistimiar">
                     <option value="2017">2017</option>
                     <option value="2018">2018</option>
                     <option value="2019">2019</option>
