@@ -13,6 +13,7 @@ html {
     max-width: 100%; }
 
   main {
+<<<<<<< HEAD
     margin-right: 20px;
     margin-left: 20px;
     overflow-x: hidden; }
@@ -20,3 +21,11 @@ html {
 @import "header.scss";
 @import "index.scss";
 @import "footer.scss";
+=======
+    margin-right: $gutter;
+    margin-left: $gutter;
+    max-width: $max-width;
+    overflow-x: hidden; }
+
+@import "Um.scss";
+>>>>>>> b9efb32a6d2ebe496a5f94086fa2eef81eaf51d1
