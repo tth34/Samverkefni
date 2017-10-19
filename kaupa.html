@@ -1,28 +1,29 @@
 <!doctype html>
 <html class="grid" lang="is">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaupa</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cRoboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700%7cRoboto+Slab:400,700" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <!-- link styleguide? -->
-    <link rel="stylesheet" href="grid.css">
+    <!-- <link rel="stylesheet" href="grid.css">-->
   </head>
   <body>
-    <div class="header--fixed">
-      <nav>
-        <a href="index.html" class="button button--main">Fooþjónustan</a>
-        <ul>
-          <li>
-            <a href="um.html" class="button button--nav1">Um</a>
-          </li>
-          <li>
-            <a href="kaupa.html" class="button button--nav2">Kaupa</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="header--fixed">
+      <ul>
+        <li>
+          <a href="index.html" class="button button--main">Fooþjónustan</a>
+        </li>
+      </ul>
+      <ul class="button--right">
+        <li>
+          <a href="um.html" class="button button--nav1">Um</a>
+        </li>
+        <li>
+          <a href="kaupa.html" class="button button--nav2">Kaupa</a>
+        </li>
+      </ul>
+    </nav>
     <header>
       <div class="header">
         <h1>Kaupa</h1>
@@ -113,14 +114,16 @@
       <button class="button button--panta">Panta</button>
     </main>
     <footer class="footer">
-      <div class="footer__text--1">
-        <p>Fooþjónustan</p>
-        <p>123-4567</p>
-      </div>
-      <div class="footer__text--2">
-        <p>Opið 12-13 alla daga</p>
-        <p>Bargata 1</p>
-        <p>900 Foobar</p>
+      <div class="footer__text">
+        <div class="footer__text--1">
+          <p>Fooþjónustan<br>
+          123-4567</p>
+        </div>
+        <div class="footer__text--2">
+          <p>Opið 12-13 alla daga<br>
+          Bargata 1<br>
+          900 Foobar</p>
+        </div>
       </div>
       <div class="footer__text--3">
         <p>© Fooþjónustan 2017</p>
