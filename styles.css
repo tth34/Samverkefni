@@ -115,10 +115,13 @@ main {
     opacity: 1; } }
 
 @media (max-width: 600px) and (max-device-width: 600px) {
+  .header--foo {
+    height: 40rem; }
   .header__content h1 {
     font-size: 4rem;
     padding-bottom: 3rem; }
   .header__content h3 {
+    padding-top: 14rem;
     font-size: 2rem; }
   .button--header {
     font-size: 3rem; } }
@@ -174,8 +177,7 @@ div + p {
 .text__img {
   padding-top: 5rem;
   padding-left: 1rem;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
   object-fit: cover; }
 
 .medmaeli {
