@@ -371,7 +371,7 @@ header {
   padding-top: 15rem;
   padding-left: 20px;
   font-family: 'Roboto Slab', sans-serif;
-  color: white;
+  color: #FFF;
   font-size: 2rem; }
 
 .text__content {
@@ -399,6 +399,171 @@ blockquote > p {
 main {
   margin-bottom: 5em; }
 
+.form1 {
+  margin-left: 50px; }
+
+.form2 {
+  margin-right: 50px; }
+
+.baediformin {
+  display: flex;
+  justify-content: space-around; }
+
+.button--panta {
+  background-color: #666;
+  border: none;
+  padding: 10px 110px;
+  border-radius: 0.2rem;
+  color: #FFF;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background-color 500ms ease; }
+
+.button--panta:hover {
+  background-color: #333; }
+
+fieldset {
+  border: none; }
+
+legend {
+  font-size: 1.5rem;
+  padding-top: 2rem; }
+
+.label {
+  display: inline-block;
+  margin-top: 1rem; }
+
+.label--greida {
+  display: flex;
+  margin-top: 1rem; }
+
+#kennitala {
+  margin-bottom: 1rem; }
+
+#valkort {
+  width: 380px;
+  border-radius: 0.2rem; }
+
+#name {
+  width: 380px;
+  border-radius: 0.2rem; }
+
+#kennitala {
+  width: 380px;
+  border-radius: 0.2rem; }
+
+#simi {
+  width: 380px;
+  border-radius: 0.2rem; }
+
+#heimilisfang {
+  width: 380px;
+  border-radius: 0.2rem; }
+
+#kortanafn {
+  width: 380px;
+  border-radius: 0.2rem; }
+
+#kortanumer {
+  width: 380px;
+  border-radius: 0.2rem;
+  margin-bottom: 1rem; }
+
+#gildistimimanudur {
+  width: 120px;
+  border-radius: 0.2rem;
+  margin-left: 30px;
+  margin-right: 20px; }
+
+#gildistimiar {
+  width: 120px;
+  border-radius: 0.2rem;
+  margin-left: 30px; }
+
+@media (max-width: 600px) and (max-device-width: 600px) {
+  .baediformin {
+    justify-content: space-between; }
+  #gildistimimanudur {
+    width: 60px;
+    border-radius: 0.2rem;
+    margin-left: 20px;
+    margin-right: 16px; }
+  #gildistimiar {
+    width: 60px;
+    border-radius: 0.2rem;
+    margin-left: 20px; }
+  #valkort {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #name {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #kennitala {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #simi {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #heimilisfang {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #kortanafn {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #kortanumer {
+    width: 240px;
+    border-radius: 0.2rem; }
+  .button--panta {
+    margin-top: 1rem;
+    padding: 10px 90px; }
+  .form1 {
+    margin-right: 30px; }
+  .form2 {
+    margin-right: 40px; } }
+
+@media (max-width: 400px) and (max-device-width: 400px) {
+  .baediformin {
+    flex-direction: column;
+    align-items: space-between; }
+  #gildistimimanudur {
+    width: 60px;
+    border-radius: 0.2rem;
+    margin-left: 20px;
+    margin-right: 16px; }
+  #gildistimiar {
+    width: 60px;
+    border-radius: 0.2rem;
+    margin-left: 20px; }
+  #valkort {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #name {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #kennitala {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #simi {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #heimilisfang {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #kortanafn {
+    width: 240px;
+    border-radius: 0.2rem; }
+  #kortanumer {
+    width: 240px;
+    border-radius: 0.2rem; }
+  .button--panta {
+    margin-top: 2rem;
+    padding: 10px 65px; }
+  .form1 {
+    margin-left: 60px; }
+  .form2 {
+    margin-left: 60px; } }
+
 @media (max-width: 600px) and (max-device-width: 600px) {
   header {
     background-position: 50%; }
@@ -423,3 +588,4 @@ main {
     word-break: break-all; }
   blockquote {
     width: 17rem; } }
+

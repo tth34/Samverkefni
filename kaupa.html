@@ -1,12 +1,13 @@
 <!doctype html>
-<html>
+<html class="grid" lang="is">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Kaupa</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cRoboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <!-- link styleguide? -->
-    <!-- <link rel="grid" href="grid.css"> -->
+    <link rel="stylesheet" href="grid.css">
   </head>
   <body>
     <div class="header--fixed">
@@ -28,85 +29,87 @@
       </div>
     </header>
     <main>
-      <form class="form">
-        <fieldset>
-          <legend>Persónuupplýsingar</legend>
-            <div class="form__content">
-              <label class="label" for="name">Nafn: </label><br>
-                <input type="text" name="nafn" id="name" required><br>
-              <label class="label" for="kennitala">Kennitala: </label><br>
-                <input type="text" name="kennitala" id="kennitala" maxlength="11" placeholder="123456-7890" required> <!-- 10 tölustafir og eitt bandstrik -->
-            </div>
-            <div class="form__content">
-              <span>Kyn: </span><br>
-              <label class="label">
-                <input id="valkona" type="radio" name="val" value="kona"><span>Kona</span>
-              </label>
-              <br><label class="label">
-                <input id="valkarl" type="radio" name="val" value="karl"><span>Karl</span>
-              </label>
-              <br><label class="label">
-                <input id="valannad" type="radio" name="val" value="annad"><span>Annað</span>
-              </label>
-            </div>
-            <div class="form__content">
-              <label class="label" for="simi">Sími: </label><br>
-                <input type="tel" name="simi" id="simi" maxlength="11" size="11" placeholder="+354-812-3456" required>
-              <br><label class="label" for="heimilisfang">Heimilisfang: </label><br>
-                <input type="text" name="heimilisfang" id="heimilisfang" required>
-            </div>
-            <div class="form__text">
-              <label class="label">
-                <input type="checkbox" name="postlisti" id="postlisti" value="postlisti" checked>
-                <span>Skrá mig á póstlista</span>
-              </label>
-            </div>
-        </fieldset>
-      </form>
-      <form class="form">
-        <fieldset>
-          <legend>Greiðsluupplýsingar</legend>
-            <div class="form__content">
-              <label class="label" for="valkort">Greiða með: </label>
-                <select id="valkort">
-                  <option value="kreditkort">Kreditkorti</option>
-                  <option value="millifaersla">Millifærslu</option>
-                  <option value="reidufe">Reiðufé</option>
-                </select>
-            </div>
-            <div class="form__content">
-              <label class="label" for="kortanafn">Nafn á korti: </label><br>
-                <input type="text" name="kortanafn" id="kortanafn">
-              <br><label class="label" for="kortanumer">Kortanúmer: </label><br>
-                <input type="text" name="kortanumer" id="kortanumer" maxlength="19" placeholder="5999-9999-9999-9999" required>
-            </div>
-            <div class="form__content">
-                <span>Gildistími: </span><br>
-                <span>Mán</span>
-                <select class="label label--select" id="gildistimimanudur"> <!-- það er til input type="month" en það lítur ekki út eins og fyrirmynd -->
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-                  <option value="6">6</option>
-                  <option value="7">7</option>
-                  <option value="8">8</option>
-                  <option value="9">9</option>
-                  <option value="10">10</option>
-                  <option value="11">11</option>
-                  <option value="12">12</option>
-                </select>
-                <span>Ár</span>
-                <select class="label label--select" id="gildistimiar">
-                  <option value="2017">2017</option>
-                  <option value="2018">2018</option>
-                  <option value="2019">2019</option>
-                  <option value="2020">2020</option>
-                </select>
-            </div>
-        </fieldset>
-      </form>
+      <div class="baediformin">
+        <form class="form1">
+          <fieldset>
+            <legend>Persónuupplýsingar</legend>
+              <div class="form__content">
+                <label class="label" for="name">Nafn: </label><br>
+                  <input type="text" name="nafn" id="name" required><br>
+                  <label class="label" for="kennitala">Kennitala: </label><br>
+                  <input type="text" name="kennitala" id="kennitala" maxlength="11" placeholder="123456-7890" required>
+                </div>
+                <div class="form__content">
+                  <span>Kyn: </span><br>
+                  <label class="label--val">
+                    <input id="valkona" type="radio" name="val" value="kona"><span>Kona</span>
+                  </label>
+                  <br><label class="label">
+                    <input id="valkarl" type="radio" name="val" value="karl"><span>Karl</span>
+                  </label>
+                  <br><label class="label">
+                    <input id="valannad" type="radio" name="val" value="annad"><span>Annað</span>
+                  </label>
+                </div>
+                <div class="form__content">
+                  <label class="label" for="simi">Sími: </label><br>
+                  <input type="tel" name="simi" id="simi" maxlength="11" size="11" placeholder="+354-812-3456" required>
+                  <br><label class="label" for="heimilisfang">Heimilisfang: </label><br>
+                  <input type="text" name="heimilisfang" id="heimilisfang" required>
+                </div>
+                <div class="form__text">
+                  <label class="label">
+                    <input type="checkbox" name="postlisti" id="postlisti" value="postlisti" checked>
+                    <span>Skrá mig á póstlista</span>
+                  </label>
+                </div>
+              </fieldset>
+            </form>
+            <form class="form2">
+              <fieldset>
+                <legend>Greiðsluupplýsingar</legend>
+                <div class="form__content">
+                  <label class="label--greida" for="valkort">Greiða með:<br></label>
+                  <select id="valkort">
+                    <option value="kreditkort">Kreditkorti</option>
+                    <option value="millifaersla">Millifærslu</option>
+                    <option value="reidufe">Reiðufé</option>
+                  </select>
+                </div>
+                <div class="form__content">
+                  <label class="label" for="kortanafn">Nafn á korti: </label><br>
+                  <input type="text" name="kortanafn" id="kortanafn">
+                  <br><label class="label" for="kortanumer">Kortanúmer: </label><br>
+                  <input type="text" name="kortanumer" id="kortanumer" maxlength="19" placeholder="5999-9999-9999-9999" required>
+                </div>
+                <div class="form__content">
+                  <span>Gildistími: </span><br>
+                  <span>Mán</span>
+                  <select id="gildistimimanudur"> <!-- það er til input type="month" en það lítur ekki út eins og fyrirmynd -->
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  <span>Ár</span>
+                  <select class="label--select" id="gildistimiar">
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                  </select>
+                </div>
+              </fieldset>
+            </form>
+          </div>
       <button class="button button--panta">Panta</button>
     </main>
     <footer class="footer">
