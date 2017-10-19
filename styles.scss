@@ -17,8 +17,15 @@ html {
   main {
     margin-right: $gutter;
     margin-left: $gutter;
+<<<<<<< HEAD
     overflow-x: hidden; }
 
 @import "header.scss";
 @import "index.scss";
 @import "footer.scss";
+=======
+    max-width: $max-width;
+    overflow-x: hidden; }
+
+@import "Um.scss";
+>>>>>>> 6e4e5d5a46cb2ff51b32273140cbf8a40ca15da3
