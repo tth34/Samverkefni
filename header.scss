@@ -27,7 +27,8 @@
 
 .button--main {
   font-family: 'Roboto Slab', sans-serif;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  font-weight: bold; }
 
 .button--right {
   display: flex;
@@ -47,7 +48,7 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding-top: 20rem;      /*Sjá hvort hægt sé að align-content */
+  padding-top: 12rem;      /*Sjá hvort hægt sé að align-content */
   font-family: 'Roboto Slab', sans-serif;
   text-align: center; }
 
@@ -88,3 +89,23 @@
   @keyframes fadein {
     0% { opacity: 0; }
     100% { opacity: 1; } }
+
+@media (max-width: 600px) and (max-device-width: 600px) {
+  .header__content h1 {
+    font-size: 4rem;
+    padding-bottom: 3rem; }
+  .header__content h3 {
+    font-size: 2rem; }
+  .button--header {
+    font-size: 3rem; } }
+
+@media (max-width: 400px) and (max-device-width: 400px) {
+  .header--foo {
+    height: 35rem; }
+  .header__content h1 {
+    font-size: 3rem;
+    font-weight: bold; }
+  .header__content h3 {
+    font-size: 1.5rem; }
+  .button--header {
+    font-size: 2rem; } }
