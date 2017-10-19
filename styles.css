@@ -16,25 +16,12 @@ img {
 main {
   margin-right: 20px;
   margin-left: 20px;
-<<<<<<< HEAD
   overflow-x: hidden; }
 
 .header--foo {
   background-image: url(bg.jpg);
   background-size: cover;
   background-attachment: fixed;
-=======
-  max-width: 1200px;
-  overflow-x: hidden; }
-
-header {
-  width: 100%;
-  height: 35em;
-  margin-bottom: 2rem;
-  background: url(bg-subpage.jpg);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
->>>>>>> b9efb32a6d2ebe496a5f94086fa2eef81eaf51d1
   background-position: 50% 50%;
   background-repeat: no-repeat;
   margin-bottom: 2em;
@@ -81,14 +68,14 @@ header {
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding-top: 12rem;
+  padding-top: 14rem;
   /*Sjá hvort hægt sé að align-content */
   font-family: 'Roboto Slab', sans-serif;
   text-align: center; }
 
 .header__content h1 {
   font-size: 6rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   animation-name: fadein;
   animation-duration: 3s;
   animation-delay: 2s;
@@ -367,7 +354,6 @@ div + p {
   flex-direction: column;
   align-items: center; }
 
-<<<<<<< HEAD
 .footer__text--3 {
   display: flex;
   justify-content: center;
@@ -375,12 +361,3 @@ div + p {
   padding-top: 0.7rem;
   border-top: 1px solid #999;
   color: #999; }
-=======
-.header {
-  padding-top: 15rem;
-  padding-left: 20px;
-  font-family: 'Roboto Slab', sans-serif;
-  font-weight: bold;
-  color: white;
-  font-size: 1.5em; }
->>>>>>> b9efb32a6d2ebe496a5f94086fa2eef81eaf51d1

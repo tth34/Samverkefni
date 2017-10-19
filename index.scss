@@ -124,7 +124,7 @@ div + p {
   color: #FFF;
   font-size: 1.5rem;
   text-decoration: none;
-  text-align: center;}
+  text-align: center; }
 
 @media (max-width: 600px) and (max-device-width: 600px) {
   h4 {
@@ -135,7 +135,7 @@ div + p {
     /* stylelint-disable-line */
     font-size: 1.2rem;
     margin-top: -5rem;
-    padding-bottom: 0.5rem;}
+    padding-bottom: 0.5rem; }
   .text {
     flex-flow: column; }
   .text__img {
@@ -150,7 +150,8 @@ div + p {
     justify-content: center; }
   .medmaeli__text {
     display: flex;
-    flex-direction: column; } /*það þarf að laga Siggi Páls svo það sé flex-end */
+    flex-direction: column; }
+  /*það þarf að laga Siggi Páls svo það sé flex-end */
   .medmaeli__text__q {
     font-size: 1.5rem; }
   .medmaeli__content {

@@ -1,6 +1,7 @@
 .footer {
   display: flex;
-  flex-direction: column;  /* vera viss um að þetta skalist */
+  flex-direction: column;
+  /* vera viss um að þetta skalist */
   height: 10rem;
   background: #333;
   color: #FFF; }
@@ -8,7 +9,7 @@
 .footer__text {
   display: flex;
   padding-top: 1rem;
-  padding-bottom: 2rem;}
+  padding-bottom: 2rem; }
 
 .footer__text--1 {
   display: flex;

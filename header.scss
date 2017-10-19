@@ -48,13 +48,13 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding-top: 12rem;      /*Sjá hvort hægt sé að align-content */
+  padding-top: 14rem;      /*Sjá hvort hægt sé að align-content */
   font-family: 'Roboto Slab', sans-serif;
   text-align: center; }
 
 .header__content h1 {
   font-size: 6rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3rem;
   animation-name: fadein;
   animation-duration: 3s;
   animation-delay: 2s;
